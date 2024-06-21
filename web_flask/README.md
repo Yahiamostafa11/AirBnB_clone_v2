@@ -1,26 +1,72 @@
-# Flask Web Application
+# 0x04. AirBnB clone - Web framework
 
-This is a Flask web application that listens on 0.0.0.0, port 5000. It has several routes that display different messages.
+## Description
+What you should learn from this project:
 
-## Installation
+* What is a Web Framework
+* How to build a web framework with Flask
+* How to define routes in Flask
+* What is a route
+* How to handle variables in a route
+* What is a template
+* How to create a HTML response in Flask by using a template
+* How to create a dynamic template (loops, conditions…)
+* How to display in HTML data from a MySQL database
 
-To install the necessary requirements for this project, run the following command:
+---
 
-```bash
-pip install flask
+### [0. Hello Flask!](./0-hello_route.py)
+* Write a script that starts a Flask web application:
 
-python app.py
 
-The application has the following routes:
+### [1. HBNB](./1-hbnb_route.py)
+* Write a script that starts a Flask web application:
 
-/: Displays "Hello HBNB!"
-/hbnb: Displays "HBNB"
-/c/<text>: Displays "C ", followed by the value of the text variable (replace underscore _ symbols with a space)
-/python/(<text>): Displays "Python ", followed by the value of the text variable (replace underscore _ symbols with a space). The default value of text is "is cool"
-/number/<n>: Displays "n is a number" only if n is an integer
 
-Contributing
-Contributions are welcome. Please fork the repository and create a pull request with your changes.
+### [2. C is fun!](./2-c_route.py)
+* Write a script that starts a Flask web application:
 
-License
-This project is licensed under the MIT License.
+
+### [3. Python is cool!](./3-python_route.py)
+* Write a script that starts a Flask web application:
+
+
+### [4. Is it a number?](./4-number_route.py)
+* Write a script that starts a Flask web application:
+
+
+### [5. Number template](./5-number_template.py)
+* Write a script that starts a Flask web application:
+
+
+### [6. Odd or even?](./6-number_odd_or_even.py)
+* Write a script that starts a Flask web application:
+
+
+### [7. Improve engines](./models/engine/file_storage.py)
+* Before using Flask to display our HBNB data, you will need to update some part of our engine:
+
+
+### [8. List of states](./web_flask/7-states_list.py)
+* Write a script that starts a Flask web application:
+
+
+### [9. Cities by states](./web_flask/8-cities_by_states.py)
+* Write a script that starts a Flask web application:
+
+
+### [10. States and State](./web_flask/9-states.py)
+* Write a script that starts a Flask web application:
+
+
+### [11. HBNB filters](./web_flask/10-hbnb_filters.py)
+* Write a script that starts a Flask web application:
+
+
+### [12. HBNB is alive!](./web_flask/100-hbnb.py)
+* Write a script that starts a Flask web application:
+
+---
+
+## Author
+* **Nathan Petersen** - [blueExcess](https://github.com/blueExcess)
